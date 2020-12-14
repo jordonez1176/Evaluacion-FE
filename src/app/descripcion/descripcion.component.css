@@ -1,0 +1,16 @@
+div.caja{
+    color: black;
+    background-color: rgb(94, 224, 181);
+}
+
+h1{
+    text-align: left;
+}
+
+div.descripcion{
+    padding-top: 3rem;
+}
+
+div.descripcion{
+    flex: 1 1 50%;
+}

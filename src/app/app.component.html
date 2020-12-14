@@ -1,0 +1,23 @@
+
+<body>
+  <header class="flex-header">
+      BANNER DE CABECERA
+  </header>
+  <main class="flex-main">
+          <div class="foto">
+              <img src="/assets/img/logo-ucb.jpg" alt="" width="200" height="250">
+          </div>
+          <app-descripcion></app-descripcion>
+  </main>
+  <main class="flex-main">
+      <div class="titulo">
+          <h1>SKILLS-1</h1>
+      </div>
+  </main>
+  <div class="flex-container">
+    <app-item [nombre]="'HTML'"></app-item>
+    <app-item [nombre]="'CSS'"></app-item>
+    <app-item [nombre]="'JS'"></app-item>
+    <app-item [nombre]="'ANGULAR'"></app-item>
+  </div>
+</body>
